@@ -11,7 +11,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
-      body: Container(),
+      body: Container(
+        child: Column(
+          children: [
+            Text("Hello World!"),
+          ],
+        ),
+      ),
     );
   }
 }
